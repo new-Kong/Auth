@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+
+
+<h1 class="text-center py-2 text-white">Hi <%= name%></h1>
+
+  <form class="" action="/logout?_method=DELETE" method="POST">
+    <div class="text-center py-5">
+      <button class="btn btn-outline-light btn-lg " type="submit" name="button">Log Out</button>
+    </div>
+
+  </form>
+
+
+<%- include("partials/footer") -%>
